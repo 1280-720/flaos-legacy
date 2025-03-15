@@ -7,10 +7,9 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 include $(ROOTDIR)/user/shared/boards.mk
 
 PROJECT_HOME_URL="https:\/\/bitbucket.org\/padavan\/rt-n56u\/"
-PROJECT_HOME_URL_MOD="https:\/\/github.com\/hanwckf\/rt-n56u\/"
+PROJECT_HOME_URL_MOD="https:\/\/github.com\/1280-720\/flaos-legacy\"
 
-LABEL_COPYRIGHT_TEXT='© 2011-2021 <a href="https:\/\/bitbucket.org\/padavan\/rt-n56u" target="blank">Padavan<\/a> \& N56U project community \& by <a href="https:\/\/github.com\/hanwckf\/rt-n56u" target="blank">hanwckf<\/a>'
-
+LABEL_COPYRIGHT_TEXT='© 2011-2077 <a href="https:\/\/github.com\/1280-720\/flaos-legacy" target="blank">FlaOS<\/a> \based on <a href="https:\/\/bitbucket.org\/padavan\/rt-n56u" target="blank">Padavan<\/a> \by <a href="https:\/\/github.com\/1280-720" target="blank">FlaTek<\/a>'
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
 DWURL_PATTERN=s/ZVDWURLVZ/$(PROJECT_HOME_URL)/g
